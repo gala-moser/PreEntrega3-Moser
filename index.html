@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Proyecto Adoptar es una organizacion sin fines de lucro que opera realizando rescates de gatos y perros, facilitando adopciones reponsables y habilitando el encuentro de interesados en participar en dichas tareas">
+        <meta name="keywords" content="Adopción responsable, Perros en adopción, Gatos en adopción, Rescate de animales">
+        <link rel="shortcut icon" href="./assets/img/faviconLogo/favicon-16x16.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Montserrat:wght@100;500;600&display=swap"
+            rel="stylesheet">
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link rel="stylesheet" href="css/animate.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <!-- CSS only -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/estilo.css">
+        <title>Proyecto Adoptar</title>
+
+    </head>
+    <body>
+        <header class="navBack mb-4">
+            <nav class="navbar d-flex justify-content-around navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img
+                            src="./assets/img/logoround.png"
+                            alt="Logo"
+                            width="70"
+                            height="70"
+                            class="d-inline-block align-text-top">
+                        <p class="nombre d-inline-block p-2">PROYECTO ADOPTAR</p>
+                    </a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav"
+                        aria-controls="navbarNav"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav me-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active p-3" aria-current="page" href="index.html">INICIO</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link active p-3 " href="./view/adopciones.html">ADOPCIONES</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link dropdown-toggle"
+                                    href="#"
+                                    id="navbarDropdown"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false">COLABORÁ</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li>
+                                        <a class="dropdown-item" href="./view/donaciones.html">Donaciones</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="./view/voluntariado.html">Voluntariado</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active p-3" href="./view/nosotros.html">NOSOTROS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active p-3" href="./view/contacto.html">CONTACTO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active p-3" href="./view/registrate.html">REGISTRATE</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section class="container">
+                <section class="bg-info rounded bg-opacity-50 p-5">
+                    <div class="wow">
+                        <h1 class="wow animate__animated animate__fadeInDown fs-1">PROYECTO ADOPTAR</h1>
+                        <p class="wow animate__animated animate__fadeInUp fs-2">Registrate y SALVÁ vidas</p>
+                    </div>
+                </section>
+                <section class="col-lg-12 text-center p-3 mt-5 mb-5">
+                        <p class="fs-3">
+                            Somos la red de adopciones, tránsitos y rescates más grande de Argentina.
+                        </p>
+                </section>
+                <section class="d-flex flex-column flex-md-row">
+                    <div class="m-4">
+                        <img
+                            src="./assets/img/fondo4.jpg"
+                            class="img-fluid rounded img1"
+                            alt="foto abrazo">
+                    </div>
+                    <div class="bg-success text-center rounded bg-opacity-25 h-100 d-flex flex-column justify-content-center m-4 p-3 fs-5">
+                        <p>Registrate a nuestro Newsletter y conocé todas nuestras actividades.</p>
+                        <form>
+                            <div class="m-3">
+                                <label for="name1" class="form-label">
+                                    Nombre
+                                </label>
+                                <input type="text" class="form-control" id="">
+                            </div>
+                            <div class="m-3">
+                                <label for="email1" class="form-label">
+                                    Correo Electrónico*
+                                </label>
+                                <input
+                                    type="email"
+                                    class="form-control"
+                                    id="email1"
+                                    required
+                                    placeholder="example@gmail.com">
+                            </div>
+                            <div class="p-20 justify-self-center form-check d-flex justify-content-center">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">
+                                    Acepto recibir información y notificaciones en este e-mail.
+                                </label>
+                            </div>
+                            <button type="submit" class="btn btn-success bg-opacity-50 text-light">Suscribirme</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </section>
+
+    <section class="container">
+            <section class="col-lg-12 fs-1 bg-info rounded bg-opacity-50 p-5">
+                    <p data-aos="zoom-in-left">NO COMPRES, ADOPTÁ.</p>
+                    <p data-aos="zoom-in-right">Sumate a nuestra Red de Adopciones</p>
+            </section>
+            <section>
+                <div class="col-12 text-center bg-transparent p-5">
+                    <h1>Encontrá a tu compañero de aventuras.</h1>
+                </div>
+            </section>
+            <section class="d-flex flex-column align-items-center flex-md-row justify-content-around">
+                <div class="text-center p-3">
+                    <div class="card" style="width: 18rem;">
+                        <img
+                            class="img-fluid"
+                            src="./assets/img/adopta1.jpg"
+                            class="card-img-top"
+                            alt="foto merlin">
+                        <div class="card-body">
+                            <h5 class="card-title">Adopción de Gatos</h5>
+                            <a
+                                href="./view/adopciones.html"
+                                class="btn btn-primary bg-opacity-50 text-center">Adoptar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center p-3 mb-3">
+                    <div class="card" style="width: 18rem;">
+                        <img
+                            class="img-fluid"
+                            src="./assets/img/adopta2.jpg"
+                            class="card-img-top"
+                            alt="foto robin">
+                        <div class="card-body">
+                            <p class="card-title">Adopción de Perros</p>
+                            <a
+                                href="./view/adopciones.html"
+                                class="btn btn-primary bg-opacity-50 text-center">Adoptar</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="container">
+                <section class="col-lg-12 fs-1 bg-info rounded bg-opacity-50 p-5">
+                    <div class="fs-2">
+                        <p data-aos="zoom-in-right">VOS TAMBIEN PODES COLABORAR</p>>
+                    </div>
+                    <div class="fs-3">
+                        <p data-aos="zoom-in-left">Participá como voluntario y ayudanos a ayudar</p>
+                    </div>
+                </section>
+
+                <section>
+
+                    <div class="row col-12 bg-transparent text-center p-md-5 p-sm-3 fs-5">
+                        <p>Conocé las Actividades de Nuestros Voluntarios</p>
+                    </div>
+
+                    <div class="row">
+                        <div
+                            class="col-lg-4 col-md-6 col-sm-12 bg-success bg-opacity-25 text-center d-flex align-items-center rounded py-3 mb-5 fs-4">
+                            <div>
+                                <p class="p-2" data-aos="zoom-out-down">Inscribite como voluntario para participar de nuestra Red de ayuda.</p>
+                                <button
+                                    data-aos="zoom-out-up"
+                                    type="submit"
+                                    class="btn btn-success bg-opacity-50 text-light">
+                                    Suscribirme</button>
+                            </div>
+                        </div>
+                        <div
+                            class="col-lg-8 col-md-6 col-sm-12 bg-transparent text-center py-3 d-flex justify-content-center mb-5">
+                            <div class="video1 ratio ratio-16x9 ">
+                                <iframe
+                                    src="https://www.youtube.com/embed/-IYPuUjU8DU"
+                                    title="YouTube video"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </section>
+
+</section>
+
+</main>
+<footer>
+<ul class="containerFooter">
+    <li class="ir-inicio">
+        <a href="#top">Ir al Inicio</a>
+    </li>
+    <li>© 2022 Proyecto Adoptar, todos los derechos registrados.</li>
+</ul>
+</footer>
+<!-- JavaScript Bundle with Popper -->
+<script
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+crossorigin="anonymous"></script>
+<script src="js/wow.min.js"></script>
+<script>
+new WOW().init();
+</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+AOS.init({easing: 'ease-out-back', duration: 2000})
+</script>
+</body>
+</html>

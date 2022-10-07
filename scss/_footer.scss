@@ -1,0 +1,42 @@
+footer {
+    color: $bgc;
+    list-style-type: none;
+    background-color: $fc;
+    width: 100%;
+    text-align: center;
+    font-family: 'Montserrat';
+    padding: 16px 0;
+    font-size: 0.7rem;
+    font-weight: 600;
+
+    .containerFooter {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+        li {
+            list-style: none;
+        }
+    }
+
+    .ir-inicio {
+        text-align: center;
+        text-decoration: none;
+        a {
+            color: $bgc;
+            text-decoration: none;
+            font-weight: bolder;
+            text-align: center;
+            &:hover {
+                color: $hc;
+                text-decoration: none;
+                text-align: center;
+            }
+        }
+    }
+    .footElement {
+        color: $bgc;
+        text-align: center;
+        text-decoration: none;
+    }
+}

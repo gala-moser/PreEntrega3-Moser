@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+    body {
+        color: $fc;
+        font-family: 'Montserrat';
+        line-height: 1.5;
+        min-height: 80vh;
+        main{
+            min-height: 80vh;
+        }
+    }
+    #top {
+            text-align: center;
+        }
+        
+    
+}
+

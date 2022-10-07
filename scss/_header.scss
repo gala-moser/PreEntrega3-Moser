@@ -1,0 +1,118 @@
+.navBack {
+    background-color: $mc;
+    .navbar-brand {
+        display: flex;
+
+        .nombre {
+            font-weight: bold;
+            color: $fc;
+            font-size: 1.2rem;
+            font-family: 'Montserrat';
+            padding: 5px;
+            display: flex;
+            margin: auto;
+        }
+    }
+    .navbar-nav {
+        .nav-item {
+            margin: auto;
+            padding: 5px 30px;
+            .nav-link {
+                color: $fc;
+                font-family: 'Montserrat';
+                font-weight: bold;
+                font-size: 1rem;
+                margin: auto;
+                &:hover {
+                    color: $hc;
+                }
+                .nav-link-sub {
+                    color: $fc;
+                    font-family: 'Montserrat';
+                    font-weight: bold;
+                    font-size: 1rem;
+                    margin: auto;
+                    .submenu {
+                        display: absolute;
+                        display: block;
+                        .sub_i {
+                            display: flex;
+                            flex-direction: column;
+                            color: fuc;
+                            font-family: 'Montserrat';
+                            font-weight: bold;
+
+                            font-size: 0.9rem;
+                            justify-items: left;
+                            padding: 0;
+                            position: initial;
+                            text-decoration: none;
+
+                        }
+                    }
+                }
+            }
+        .dropdown-menu{
+            background-color: $mc;
+            font-family: 'Montserrat';
+            border: none;
+            position: absolute;
+            margin-top: 2px;
+            .dropdown-item{
+                color: $fc;
+                text-align: center;
+                &:hover{
+                    color: $hc;
+                    background-color: $mc;
+                
+                }
+            }
+                
+
+
+        }
+        }
+
+    }
+
+    .menu {
+        list-style-type: none;
+        background-color: #ffccbf;
+        padding: 0;
+        width: 100%;
+        margin: 0;
+    }
+    .menu .item {
+        display: inline-block;
+        position: relative;
+        font-family: 'Montserrat';
+        font-size: 1rem;
+        font-weight: 600;
+        text-align: center;
+        padding: 0 60px;
+        color: #1b647f;
+    }
+
+    .menu .item a {
+        color: #1b647f;
+        text-decoration: none;
+        font-weight: bolder;
+        display: inline-block;
+        padding: 20px;
+    }
+    .menu .item a:hover {
+        color: #fc485d;
+    }
+    .menu .item:hover .submenu {
+        display: block;
+        color: aliceblue;
+        list-style: none;
+        position: absolute;
+        background-color: #ffccbf;
+        font-size: 0.9rem;
+    }
+    .menu .sub_i:hover a {
+        background-color: #ffccbf;
+        color: $hc;
+    }
+}
