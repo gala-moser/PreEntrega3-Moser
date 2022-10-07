@@ -1,0 +1,28 @@
+
+main{
+    background-color: 
+    min-height 75hv;
+    
+    h1, h2, h3,h4 {
+        font-family: 'Montserrat';
+        color: $fc;
+    }
+    h5, h6{
+        font-family: 'Montserrat';
+        color: $fc;
+        padding: 2px; 
+    }
+    
+    .btn {
+        transition: all 2s;
+    }
+    .btn:hover{
+        transform: scale(1.1,1.1);
+    }
+
+    .img1 {
+        object-fit: cover;
+        height: 100%;
+    }
+}
+

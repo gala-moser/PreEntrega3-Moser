@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/img/faviconLogo/favicon-16x16.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Montserrat:wght@100;500;600&display=swap" rel="stylesheet">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>Proyecto</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+<body>
+    <header class="navBack mb-4">
+        <nav class="navbar d-flex justify-content-around navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img
+                        src="../assets/img/logoround.png"
+                        alt="Logo"
+                        width="70"
+                        height="70"
+                        class="d-inline-block align-text-top">
+                    <p class="nombre d-inline-block p-2">PROYECTO ADOPTAR</p>
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active p-3" aria-current="page" href="../index.html">INICIO</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link active p-3 " href="./adopciones.html">ADOPCIONES</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a
+                                class="nav-link dropdown-toggle"
+                                href="#"
+                                id="navbarDropdown"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false">COLABORÁ</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item" href="./donaciones.html">Donaciones</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="./voluntariado.html">Voluntariado</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active p-3" href="./nosotros.html">NOSOTROS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active p-3" href="./contacto.html">CONTACTO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active p-3" href="./registrate.html">REGISTRATE</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="title register text-center">
+            <div>
+                <h1>SUMATE A NUESTRA COMUNIDAD</h1>
+            </div>        
+            <div>
+                <h2>Registrate para acceder a nuestra Red de Adopciones y Tránsitos.</h2>
+            </div>
+        
+        </section>
+        <hr>
+        <br>
+        <section class="container">
+            <section class="row">
+                <section class="col-12 bg-success bg-opacity-25 rounded">
+                     <form class="container my-5">
+                        <div class="row g-3">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <label for="name" class="form-label"><h5>Nombre</h5></label>
+                            <input type="text" name="name" class="form-control" id="name"  placeholder="Juan">
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <label for="surname" class="form-label"><h5>Apellido</h5></label>
+                            <input type="text" class="form-control" name="surname" placeholder="Pérez" id="surname">
+                        </div>
+                    <div class="row g-3">  
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <label for="email" class="form-label"><h5>Correo Electrónico*</h5></label>
+                        <input type="email" class="form-control" placeholder="example@gmail.com" id="email" required> 
+                    </div>
+                    <div class="col-lg-6 col-md-6 col col-sm-12">
+                        <label for="pass" class="form-label"><h5>Contraseña</h5></label>
+                        <input type="password" class="form-control" id="" required>
+                    </div>
+                    <div class="row g-3">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <label for="address" class="form-label"><h5>Domicilio</h5></label>
+                        <input type="text" class="form-control" id="" placeholder="Calle 1234">
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6">
+                        <label for="inputAddress2" class="form-label"><h5>Piso</h5></label>
+                        <input type="text" class="form-control" id="" placeholder="1">
+                      </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6">
+                        <label for="inputAddress2" class="form-label"><h5>Departamento</h5></label>
+                        <input type="text" class="form-control" id="" placeholder="A">
+                    </div>
+
+                </div>     
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <label for="prov" class="form-label"><h5>Provincia</h5></label>
+                        <select class="form-select" aria-label="Default select example" name="prov" id="">
+                            <option selected><h6>Seleccioná tu provincia</h6></option>
+                            <option value="Buenos Aires">Buenos Aires</option>
+                            <option value="Buenos Aires Capital">Buenos Aires Capital</option>
+                            <option value="Catamarca">Catamarca</option>
+                            <option value="Chaco">Chaco</option>
+                            <option value="Chubut">Chubut</option>
+                            <option value="Cordoba">Cordoba</option>
+                            <option value="Corrientes">Corrientes</option>
+                            <option value="Entre Rios">Entre Rios</option>
+                            <option value="Formosa">Formosa</option>
+                            <option value="Jujuy">Jujuy</option>
+                            <option value="La Pampa">La Pampa</option>
+                            <option value="La Rioja">La Rioja</option>
+                            <option value="Mendoza">Mendoza</option>
+                            <option value="Misiones">Misiones</option>
+                            <option value="Neuquen">Neuquen</option>
+                            <option value="Rio Negro">Rio Negro</option>
+                            <option value="Salta">Salta</option>
+                            <option value="San Juan">San Juan</option>
+                            <option value="San Luis">San Luis</option>
+                            <option value="Santa Cruz">Santa Cruz</option>
+                            <option value="Santa Fe">Santa Fe</option>
+                            <option value="Santiago del Estero">Santiago del Estero</option>
+                            <option value="Tierra del Fuego">Tierra del Fuego</option>
+                            <option value="Tucuman">Tucuman</option>
+                        </select>
+                      </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                            <label for="city" class="form-label"><h5>Localidad</h5></label>
+                            <input type="text" class="form-control" id="" placeholder="Capital Federal">
+                    </div>
+                    <div class="col-lg-3 col-md-8 col-sm-12">
+                        <label for="neighborhood" class="form-label"><h5>Barrio</h5></label>
+                        <input type="text" class="form-control" id="">
+                      </div>
+                    <div class="col-lg-2 col-md-4 col-sm-12">
+                        <label for="zip" class="form-label"><h5>Código Postal</h5></label>
+                        <input type="text" class="form-control" id="">
+                    </div>  
+                    
+                    <div class="row g-3">
+
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <div>
+                                <label for="gen"><h5>Género</h5></label>
+                            
+                            <div class="form-check">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                    <label class="form-check-label" for="inlineRadio1"><h6>Femenino</h6></label>
+                                  </div>
+                                  <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                    <label class="form-check-label" for="inlineRadio1"><h6>Masculino</h6></label>
+                                  </div>
+                                  <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                    <label class="form-check-label" for="inlineRadio1"><h6>No Binario</h6></label>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 text-center">
+                            <div>
+                                <label for="act"><h5>Actividades en las que te interesa participar</h5></label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                <label class="form-check-label" for="inlineRadio1"><h6>Red de adopciones</h6></label>
+                              </div>
+                              
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                <label class="form-check-label" for="inlineRadio1"><h6>Voluntariado</h6></label>
+                              </div>
+
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                <label class="form-check-label" for="inlineRadio1"><h6>Hogares de tránsito</h6></label>
+                              </div>
+
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                <label class="form-check-label" for="inlineRadio1"><h6>Donaciones</h6></label>
+                              </div>
+
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                <label class="form-check-label" for="inlineRadio1"><h6>Recibir información</h6></label>
+                              </div>
+                            </div>
+                <div class="row g-3">
+                    <div class="col-lg-6 text-center">
+                        <button type="button" class="btn btn-success">Registrarme</button>
+                    </div>
+
+                    <div class="col-lg-6 text-center">
+                        <button type="button" class="btn btn-success">Borrar Datos</h6></button>
+                    </div>
+                </div>  
+        </form>
+    </section>
+    </main>
+<br><br><br>
+<footer>
+    <ul class="containerFooter">
+        <li class="ir-inicio">
+            <a href="#top">Ir al Inicio</a>
+        </li>
+        <li>© 2022 Proyecto Adoptar, todos los derechos registrados.</li>
+    </ul>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
