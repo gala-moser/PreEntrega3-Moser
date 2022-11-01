@@ -15,12 +15,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gala-moser/PreEntrega3-Moser.git"
+    "url": "git+https://github.com/gala-moser/PF-Moser"
   },
   "bugs": {
-    "url": "https://github.com/gala-moser/PreEntrega3-Moser/issues"
+    "url": "https://github.com/gala-moser/PF-Moser/issues"
   },
-  "homepage": "https://github.com/gala-moser/PreEntrega3-Moser#readme",
+  "homepage": "https://github.com/gala-moser/PF-Moser-Moser#readme",
   "dependencies": {
     "abbrev": "^1.1.1",
     "agent-base": "^6.0.2",
