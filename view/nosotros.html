@@ -4,27 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./assets/img/faviconLogo/favicon-16x16.png">
+    <meta name="description" content="Proyecto Adoptar es una organizacion sin fines de lucro que opera realizando rescates de gatos y perros, facilitando adopciones reponsables y habilitando el encuentro de interesados en participar en dichas tareas">
+    <meta name="keywords" content="Adopción responsable, Perros en adopción, Gatos en adopción, Rescate de animales">
+    <link rel="shortcut icon" href="../assets/img/faviconLogo/favicon-16x16.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Montserrat:wght@100;500;600&display=swap" rel="stylesheet">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">  
-    <title>Proyecto Adoptar</title>
+    <title>Proyecto Adoptar - Nosotros</title>
     <link rel="stylesheet" href="../css/estilo.css">
 </head>
 <body>
     <header class="navBack mb-4">
         <nav class="navbar d-flex justify-content-around navbar-expand-lg">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="../index.html">
                     <img
                         src="../assets/img/logoround.png"
                         alt="Logo"
                         width="70"
                         height="70"
                         class="d-inline-block align-text-top">
-                    <p class="nombre d-inline-block p-2">PROYECTO ADOPTAR</p>
+                        <a class="navbar-brand" href="../index.html">
+                            <p class="nombre d-inline-block p-2">PROYECTO ADOPTAR</p>
                 </a>
                 <button
                     class="navbar-toggler"
@@ -42,8 +45,22 @@
                         <li class="nav-item">
                             <a class="nav-link active p-3" aria-current="page" href="../index.html">INICIO</a>
                         </li>
-                        <li class="nav-item ">
-                            <a class="nav-link active p-3 " href="./adopciones.html">ADOPCIONES</a>
+                        <li class="nav-item dropdown">
+                            <a
+                            class="nav-link dropdown-toggle"
+                            href="#"
+                            id="navbarDropdown"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false">ADOPCIONES</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item" href="./adopciondegatos.html">Adopción de Gatos</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="./adopciondeperros.html">Adopción de Perros</a>
+                                </li>
+                            </ul>
                         </li>
                         <li class="nav-item dropdown">
                             <a
@@ -80,89 +97,94 @@
     <main>
         <section class="container m-auto mt-5">
             <div class="row">
-                <div class="col-12 p-3 mb-2 bg-info text-dark rounded text-center bg-opacity-50">
+                <div class="col-12 p-3 my-2 bg-info text-dark rounded text-center bg-opacity-50">
                     <h1>SOBRE NOSOTROS</h1>
                 </div>
-            </div>  
-            <section class="row">
-                <div>
-
-            <section class="row mb-5">
-                <div class="col-lg-8 col-md-6 col-sm-12 bg-warning text-dark rounded text-center bg-opacity-25 h-700">
-                    <div>
-                        <h2>Conocé Nuestra Historia</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus corporis ab odit dolore enim obcaecati dicta iure eum nesciunt explicabo unde numquam quos error, reiciendis aut sed tenetur excepturi laborum dolorum perspiciatis vitae a? Praesentium ducimus saepe aperiam enim. Ipsum laudantium perspiciatis maiores. Atque cumque porro, impedit odit inventore similique consectetur, harum maxime cum possimus reprehenderit, corrupti facilis sapiente? Aut impedit, quo vero rem ab tenetur laboriosam dignissimos obcaecati nemo dicta voluptatem repellendus exercitationem unde? Rem, deleniti sapiente. Hic dolor eaque eveniet ab ipsum odit recusandae vero minima, maxime reprehenderit odio sunt quod natus, quidem harum mollitia modi corporis beatae libero! Maxime placeat asperiores explicabo nostrum itaque quae, atque voluptatem exercitationem id veritatis suscipit magnam dignissimos nemo fuga inventore culpa quaerat ea earum deserunt reprehenderit debitis blanditiis at? Quia, eum! Illo praesentium atque quasi rerum molestiae veniam maxime distinctio possimus, quisquam iste? Quo, vero omnis deleniti voluptas minima magni tempora!</p>
-                    </div>
-                    <div>
-                        <img src="../assets/img/fotoequipo.jpg" class="img-fluid p-3" alt="foto equipo">
-                    </div>
+            </div>
+            <section class=" row mb-5 bg-warning rounded text-center bg-opacity-25 mt-5">
+                <div class="col-lg-8 col-md-12 col-sm-12 justify-content-center align-items-center p-3">
+                        <p class="fs-2">Nuestra Historia</p>
+                        <p>
+                            Proyecto Adoptar está compuesto por voluntarios que comparten el respeto por la vida de los animales y los consideran sus iguales siendo que estos tienen capacidad para sentir placer, alegría, dolor y sufrimiento.
+                            una organización sin fines de lucro liderada por un grupo de voluntarios que buscan superar la situación de sobrepoblación, abandono, crueldad e indiferencia que viven millones de animales en nuestro país. (Buenos Aires/ Argentina). Propiciamos una actitud de respeto hacia todas las especies, entendiendo que no son “cosas” para ser utilizadas por el ser humano. Rechazamos todo tipo de explotación animal, incluyendo su uso como vestimenta, comida, entretenimiento y experimentación.
+                        </p>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 bg-danger text-dark rounded text-center bg-opacity-25 p-10">
-                    <div>
-                        <h3>Miembros Fundadores</h3>
-                    </div>
-                    <div class="container">
-                        <div class="row mb-3">
-                            <div class="col-lg-5 col-md-6 col-sm-6">
-                                <img src="../assets/img/carnet1.jpg" class="img-fluid  rounded-circle" alt="foto veronica">    
-                            </div>
-                            <div class="col-lg-7 col-md-6 col-sm-6 align-text-center mt-2">
-                                <h5>Verónica Gomez</h5>
-                                <h6>Capital Federal</h6>
-                                <h6>Veterinaria</h6>
-                            </div>
-                        </div>
-
-                        <div class="row mb-3">
-                            <div class="col-lg-7 col-md-6 col-sm-6 align-text-center h-200">
-                                <p><h5>Martín Pérez</h5>
-                                    <h6>San Justo</h6>
-                                    <h6>Cirujano Veterinario</h6></p>
-                            </div>
-                            <div class="col-lg-5 col-md-6 col-sm-6">
-                                <img src="../assets/img/carnet5.jpg" class="img-fluid  rounded-circle" alt="foto veronica">    
-                            </div>
-                        </div>
-
-                        <div class="row mb-3">
-                            <div class="col-lg-5 col-md-6 col-sm-6">
-                                <img src="../assets/img/carnet3.jpg" class="img-fluid  rounded-circle" alt="foto veronica">    
-                            </div>
-                            <div class="col-lg-7 col-md-6 col-sm-6 align-text-center">
-                                <p><h5>Laura Gutierrez</h5>
-                                    <h6>Córdoba Capital</h6>
-                                    <h6>Veterinaria Etologa</h6></p>
-                            </div>
-                        </div>
-
-                        <div class="row mb-3">
-                            <div class="col-lg-7 col-md-6 col-sm-6 align-text-center h-200">
-                                <p><h5>Marcia Martinez</h5>
-                                    <h6>Salta Capital</h6>
-                                    <h6>Veterinaria Rescatista</h6></p>
-                            </div>
-                            <div class="col-lg-5 col-md-6 col-sm-6">
-                                <img src="../assets/img/carnet2.jpg" class="img-fluid  rounded-circle" alt="foto veronica">    
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
-            
-                
-                <div></div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-
-                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 justify-content-center align-items-center rounded p-3">
+                    <img src="../assets/img/fotoequipo.jpg" class="img-fluid p-3" alt="foto equipo">
+                </div>   
             </section>
- 
-          
+           
+            <section class=" row mb-5 bg-success rounded bg-opacity-25 ">
+                <div class="col-lg-4 col-md-12 col-sm-12 justify-content-center align-items-center rounded p-3">
+                    <img class="align-items-center justify-content-center" src="../assets/fotos/nosotros/nosotros1a.jpg" class="img-fluid p-3" alt="foto equipo">
+                </div> 
+                <div class="col-lg-8 col-md-12 col-sm-12 p-3">
+                    <p class="fs-2 text-center">Nuestros Objetivos</p>
+                    <ul>
+                        <li>Luchar contra el abandono, el maltrato y el sufrimiento animal.</li>
+                        <li>Educar sobre el respeto por la vida de los animales a través de charlas y talleres educativos en lugares públicos y privados.</li>
+                        <li>Organizar campañas de castración gratuitas y/o a bajo costo en las zonas vulnerables donde el Estado está ausente y los perros y gatos se reproducen sin control.</li>
+                        <li>Concientizar sobre la importancia de las castraciones masivas, gratuitas, sistemáticas y extensivas como único método ético de control de la superpoblación animal y exigir al Estado que cumpla con la normativa vigente.</li>
+                        <li>Asistir a animales en situación de riesgo de muerte, brindarles la atención médica necesaria para recuperarlos y encontrar familias responsables para su adopción.</li>
+                        <li>Asesorar a la población respecto a cómo actuar en casos de maltrato animal.</li>
+                    </ul>
+                </div>
+                
+            </section>
+            <section class=" row mb-5 bg-danger rounded text-center bg-opacity-25 ">
+                <div class="col-lg-8 col-md-12 col-sm-12 p-3">
+                        <p class="fs-2 text-center">Nuestro Aporte</p>
+                        <ul>
+                            <li>La acción directa: asistir a animales abandonados en situación de riesgo, promoviendo su adopción y tenencia por parte de hogares responsables que estén en condiciones de brindarles albergue, atención y afecto.
+                            </li>
+                            <li>La acción preventiva: fomentar entre el público general la necesidad y la importancia de castrar machos y esterilizar las hembras antes del primer celo y exigiendo a las autoridades la aplicación de las leyes que los obligan a realizar campañas de castración masivas, gratuitas, extendidas, sistemáticas y permanentes, como único medio humanitario, sustentable y no eutanásico de control de la superpoblación animal.</li>
+                            <li>Las acciones en el plano legislativo y judicial: exigir la aplicación de la ley 14.346 de protección animal y denunciar ante las autoridades todo acto de maltrato y crueldad; presentar y apoyar proyectos de ley que beneficien a los animales.</li>
+                            <li>Las actividades educativas: desarrollar actividades educativas sobre trato ético hacia los animales.</li>
+                            <li>Las actividades asistenciales: rescatar animales en situación de riesgo con el fin de recuperarlos y darles la posibilidad de formar parte de una familia que le brinde lo que necesita.</li>
+                            <li>Las actividades solidarias: ecrear lazos de colaboración entre entidades y empresas comprometidos en la problemática animal.</li>                                                      
+                        </ul>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 justify-content-center align-items-center rounded p-3">
+                    <img src="../assets/fotos/nosotros/nosotros4a.jpg" class="img-fluid p-3" alt="foto equipo">
+                </div>   
+            </section>  
+        </section>         
 
     </main>
     <footer>
         <ul class="containerFooter">
             <li class="ir-inicio">
-                <a href="#top">Ir al Inicio</a>
+                <a href="#top">Ir al Inicio</a>   
+            </li>
+            <li>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img class="logoredes"
+                        src="/assets/fotos/logos/logoinstagram2.png"
+                        alt="Logo"
+                        width="70"
+                        height="70"
+                        class="d-inline-block align-text-top">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img class="logoredes"
+                        src="/assets/fotos/logos/logofacebook2.jpg"
+                        alt="Logo"
+                        width="70"
+                        height="70"
+                        class="d-inline-block align-text-top">
+                </a>
+            </li>
+            <li>
+                <a  href="https://www.twitter.com/" target="_blank">
+                    <img class="logoredes"
+                        src="/assets/fotos/logos/logotwitter2.png"
+                        alt="Logo"
+                        width="70"
+                        height="70"
+                        class="d-inline-block align-text-top">
+                </a>
             </li>
             <li>© 2022 Proyecto Adoptar, todos los derechos registrados.</li>
         </ul>

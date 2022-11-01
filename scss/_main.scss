@@ -24,5 +24,30 @@ main{
         object-fit: cover;
         height: 100%;
     }
+   .padre{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    }
+        
+    .fotoadopcion{
+        border-radius: 20;
+        padding: 10px;
+        opacity: .8;
+        transition: all 2s;
+    }
+    .fotoadopcion:hover{
+        transform: scale(1.1,1.1);
+        opacity: 1;
+        
+    }
+    .nombre{
+        text-decoration: none;
+    }
+
+    
+
+   
 }
 

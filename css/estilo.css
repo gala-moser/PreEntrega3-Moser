@@ -1,155 +1,141 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 html {
-  height: 100vh;
-}
-html body {
-  color: #1b647f;
-  font-family: "Montserrat";
-  line-height: 1.5;
-  min-height: 80vh;
-}
-html body main {
-  min-height: 80vh;
-}
-html #top {
-  text-align: center;
-}
+  height: 100vh; }
+  html body {
+    color: #1b647f;
+    font-family: 'Montserrat';
+    line-height: 1.5;
+    min-height: 80vh; }
+    html body main {
+      min-height: 80vh; }
+  html #top {
+    text-align: center; }
 
 .navBack {
-  background-color: #ffccbf;
-}
-.navBack .navbar-brand {
-  display: flex;
-}
-.navBack .navbar-brand .nombre {
-  font-weight: bold;
-  color: #1b647f;
-  font-size: 1.2rem;
-  font-family: "Montserrat";
-  padding: 5px;
-  display: flex;
-  margin: auto;
-}
-.navBack .navbar-nav .nav-item {
-  margin: auto;
-  padding: 5px 30px;
-}
-.navBack .navbar-nav .nav-item .nav-link {
-  color: #1b647f;
-  font-family: "Montserrat";
-  font-weight: bold;
-  font-size: 1rem;
-  margin: auto;
-}
-.navBack .navbar-nav .nav-item .nav-link:hover {
-  color: #fc485d;
-}
-.navBack .navbar-nav .nav-item .nav-link .nav-link-sub {
-  color: #1b647f;
-  font-family: "Montserrat";
-  font-weight: bold;
-  font-size: 1rem;
-  margin: auto;
-}
-.navBack .navbar-nav .nav-item .nav-link .nav-link-sub .submenu {
-  display: absolute;
-  display: block;
-}
-.navBack .navbar-nav .nav-item .nav-link .nav-link-sub .submenu .sub_i {
-  display: flex;
-  flex-direction: column;
-  color: fuc;
-  font-family: "Montserrat";
-  font-weight: bold;
-  font-size: 0.9rem;
-  justify-items: left;
-  padding: 0;
-  position: initial;
-  text-decoration: none;
-}
-.navBack .navbar-nav .nav-item .dropdown-menu {
-  background-color: #ffccbf;
-  font-family: "Montserrat";
-  border: none;
-  position: absolute;
-  margin-top: 2px;
-}
-.navBack .navbar-nav .nav-item .dropdown-menu .dropdown-item {
-  color: #1b647f;
-  text-align: center;
-}
-.navBack .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
-  color: #fc485d;
-  background-color: #ffccbf;
-}
-.navBack .menu {
-  list-style-type: none;
-  background-color: #ffccbf;
-  padding: 0;
-  width: 100%;
-  margin: 0;
-}
-.navBack .menu .item {
-  display: inline-block;
-  position: relative;
-  font-family: "Montserrat";
-  font-size: 1rem;
-  font-weight: 600;
-  text-align: center;
-  padding: 0 60px;
-  color: #1b647f;
-}
-.navBack .menu .item a {
-  color: #1b647f;
-  text-decoration: none;
-  font-weight: bolder;
-  display: inline-block;
-  padding: 20px;
-}
-.navBack .menu .item a:hover {
-  color: #fc485d;
-}
-.navBack .menu .item:hover .submenu {
-  display: block;
-  color: aliceblue;
-  list-style: none;
-  position: absolute;
-  background-color: #ffccbf;
-  font-size: 0.9rem;
-}
-.navBack .menu .sub_i:hover a {
-  background-color: #ffccbf;
-  color: #fc485d;
-}
+  background-color: #ffccbf; }
+  .navBack .navbar-brand {
+    display: flex; }
+    .navBack .navbar-brand .nombre {
+      font-weight: bold;
+      color: #1b647f;
+      font-size: 1.2rem;
+      font-family: 'Montserrat';
+      padding: 5px;
+      display: flex;
+      margin: auto; }
+  .navBack .navbar-nav .nav-item {
+    margin: auto;
+    padding: 5px 30px; }
+    .navBack .navbar-nav .nav-item .nav-link {
+      color: #1b647f;
+      font-family: 'Montserrat';
+      font-weight: bold;
+      font-size: 1rem;
+      margin: auto;
+      padding: auto; }
+      .navBack .navbar-nav .nav-item .nav-link:hover {
+        color: #fc485d; }
+      .navBack .navbar-nav .nav-item .nav-link .nav-link-sub {
+        color: #1b647f;
+        font-family: 'Montserrat';
+        font-weight: bold;
+        font-size: 1rem;
+        margin: auto; }
+        .navBack .navbar-nav .nav-item .nav-link .nav-link-sub .submenu {
+          display: absolute;
+          display: block; }
+          .navBack .navbar-nav .nav-item .nav-link .nav-link-sub .submenu .sub_i {
+            display: flex;
+            flex-direction: column;
+            color: fuc;
+            font-family: 'Montserrat';
+            font-weight: bold;
+            font-size: 0.9rem;
+            justify-items: left;
+            padding: 0;
+            position: initial;
+            text-decoration: none; }
+    .navBack .navbar-nav .nav-item .dropdown-menu {
+      background-color: #ffccbf;
+      font-family: 'Montserrat';
+      border: none;
+      position: absolute;
+      margin-top: 2px; }
+      .navBack .navbar-nav .nav-item .dropdown-menu .dropdown-item {
+        color: #1b647f;
+        text-align: center; }
+        .navBack .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
+          color: #fc485d;
+          background-color: #ffccbf; }
+  .navBack .menu {
+    list-style-type: none;
+    background-color: #ffccbf;
+    padding: 0;
+    width: 100%;
+    margin: 0; }
+  .navBack .menu .item {
+    display: inline-block;
+    position: relative;
+    font-family: 'Montserrat';
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 0 60px;
+    color: #1b647f; }
+  .navBack .menu .item a {
+    color: #1b647f;
+    text-decoration: none;
+    font-weight: bolder;
+    display: inline-block;
+    padding: 20px; }
+  .navBack .menu .item a:hover {
+    color: #fc485d; }
+  .navBack .menu .item:hover .submenu {
+    display: block;
+    color: aliceblue;
+    list-style: none;
+    position: absolute;
+    background-color: #ffccbf;
+    font-size: 0.9rem; }
+  .navBack .menu .sub_i:hover a {
+    background-color: #ffccbf;
+    color: #fc485d; }
 
 main {
-  background-color: min-height 75hv;
-}
-main h1, main h2, main h3, main h4 {
-  font-family: "Montserrat";
-  color: #1b647f;
-}
-main h5, main h6 {
-  font-family: "Montserrat";
-  color: #1b647f;
-  padding: 2px;
-}
-main .btn {
-  transition: all 2s;
-}
-main .btn:hover {
-  transform: scale(1.1, 1.1);
-}
-main .img1 {
-  -o-object-fit: cover;
-     object-fit: cover;
-  height: 100%;
-}
+  background-color: min-height 75hv; }
+  main h1, main h2, main h3, main h4 {
+    font-family: 'Montserrat';
+    color: #1b647f; }
+  main h5, main h6 {
+    font-family: 'Montserrat';
+    color: #1b647f;
+    padding: 2px; }
+  main .btn {
+    transition: all 2s; }
+  main .btn:hover {
+    transform: scale(1.1, 1.1); }
+  main .img1 {
+    object-fit: cover;
+    height: 100%; }
+  main .padre {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+  main .fotoadopcion {
+    border-radius: 20;
+    padding: 10px;
+    opacity: .8;
+    transition: all 2s; }
+  main .fotoadopcion:hover {
+    transform: scale(1.1, 1.1);
+    opacity: 1; }
+  main .nombre {
+    text-decoration: none; }
 
 footer {
   color: whitesmoke;
@@ -157,36 +143,32 @@ footer {
   background-color: #1b647f;
   width: 100%;
   text-align: center;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   padding: 16px 0;
   font-size: 0.7rem;
-  font-weight: 600;
-}
-footer .containerFooter {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-footer .containerFooter li {
-  list-style: none;
-}
-footer .ir-inicio {
-  text-align: center;
-  text-decoration: none;
-}
-footer .ir-inicio a {
-  color: whitesmoke;
-  text-decoration: none;
-  font-weight: bolder;
-  text-align: center;
-}
-footer .ir-inicio a:hover {
-  color: #fc485d;
-  text-decoration: none;
-  text-align: center;
-}
-footer .footElement {
-  color: whitesmoke;
-  text-align: center;
-  text-decoration: none;
-}/*# sourceMappingURL=estilo.css.map */
+  font-weight: 600; }
+  footer .containerFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; }
+    footer .containerFooter li {
+      list-style: none; }
+  footer .ir-inicio {
+    text-align: center;
+    text-decoration: none; }
+    footer .ir-inicio a {
+      color: whitesmoke;
+      text-decoration: none;
+      font-weight: bolder;
+      text-align: center; }
+      footer .ir-inicio a:hover {
+        color: #fc485d;
+        text-decoration: none;
+        text-align: center; }
+  footer .footElement {
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: none; }
+  footer .logoredes {
+    width: 1.8rem;
+    height: 1.8rem; }

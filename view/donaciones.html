@@ -4,27 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Proyecto Adoptar es una organizacion sin fines de lucro que opera realizando rescates de gatos y perros, facilitando adopciones reponsables y habilitando el encuentro de interesados en participar en dichas tareas">
+    <meta name="keywords" content="Adopción responsable, Perros en adopción, Gatos en adopción, Rescate de animales">
     <link rel="shortcut icon" href="../assets/img/faviconLogo/favicon-16x16.png">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Montserrat:wght@100;500;600&display=swap" rel="stylesheet">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <title>Proyecto</title>
+    <title>Proyecto Adoptar - Donaciones</title>
     <link rel="stylesheet" href="../css/estilo.css">
 </head>
 <body>
     <header class="navBack mb-4">
         <nav class="navbar d-flex justify-content-around navbar-expand-lg">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="../index.html">
                     <img
                         src="../assets/img/logoround.png"
                         alt="Logo"
                         width="70"
                         height="70"
                         class="d-inline-block align-text-top">
-                    <p class="nombre d-inline-block p-2">PROYECTO ADOPTAR</p>
+                        <a class="navbar-brand" href="../index.html">
+                            <p class="nombre d-inline-block p-2">PROYECTO ADOPTAR</p>
                 </a>
                 <button
                     class="navbar-toggler"
@@ -42,8 +46,22 @@
                         <li class="nav-item">
                             <a class="nav-link active p-3" aria-current="page" href="../index.html">INICIO</a>
                         </li>
-                        <li class="nav-item ">
-                            <a class="nav-link active p-3 " href="./adopciones.html">ADOPCIONES</a>
+                        <li class="nav-item dropdown">
+                            <a
+                            class="nav-link dropdown-toggle"
+                            href="#"
+                            id="navbarDropdown"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false">ADOPCIONES</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item" href="./adopciondegatos.html">Adopción de Gatos</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="./adopciondeperros.html">Adopción de Perros</a>
+                                </li>
+                            </ul>
                         </li>
                         <li class="nav-item dropdown">
                             <a
@@ -79,40 +97,85 @@
 
 
 <main>
-    <section class="text-center">
+    <section class="text-center m-3">
         <div>
-            <h1>TU AYUDA ES ESCENCIAL</h1>
+            <h1>DONACIONES</h1>
         </div>
-        <div>
-            <h2>
-                Con tu aporte salvas vidas
-            </h2>
-        </div>
-        <div>
-        <h3>
-            Todos los aportes son destinados a tareas sanitarias, de zoonosis y asistencialismo. Mediante la ayuda de todos nuestros colaboradores podemos financiar honorarios veterinarios, estudios médicos, campañas de castración, tratamientos y generar difusión. 
-        </h3>
+        <p class="fs-3 m-5">
+            Todos los aportes que recibimos son destinados a tareas sanitarias, de zoonosis y asistencialismo. Mediante la ayuda de todos nuestros colaboradores podemos financiar honorarios veterinarios, estudios médicos, campañas de castración, tratamientos y generar difusión. 
+        </p>
         </div>
     </section>
+    <section class="row m-5 p-2">
+        <section class="col-md-6 col-sm-12 bg-info bg-opacity-50 rounded">
+            <p class="fs-3  text-center">
+                Transferencia Bancaria
+            </p>            
+            <ul class="fs-5">
+                    <li>Banco Provincia</li>
+                    <li>Asociación Civil Proyecto 4 Patas</li>
+                    <li>Cuenta Corriente en pesos Nº 50634/8</li>
+                    <li>Sucursal Nº: 05002 – San Antonio de Padua</li>
+                    <li>CBU: 0140059501500205063480</li>
+                    <li>CUIT: 30-71080554-3</li>
+                    <li>Alias: PROYECTO-ADOPTAR</li>
+                </ul>
+        </section>
+        <section class="col-lg-6 col-md-6 col-sm-12 bg-danger bg-opacity-25 rounded">
+            <p class="fs-3  text-center">
+                Donativos
+            </p>
+            <p class="fs-5  text-center">
+                También podés acercar aportes de: alimento para gatos o perros, cuchas, piedras para gatos, vacunas o medicamentos veterinarios. Podés acercarlos personalmente o enviarlos por correo a nuestra sede.
+                <ul class="fs-5">
+                    <li>Dirección: Migueletes 450</li>
+                    <li>Localidad: San Antonio de Padua</li>
+                    <li>Código Postal: 6200 </li>
+                    <li>Horarios de Atención: 10-15hs</li>
+
+                </ul>  
+            </p>
+        </section>
+
+    </section>
     <section class="text-center">
-        <h2>
-            Transferencia Bancaria
-        </h2>
-        <h4>
-            <li>Banco Provincia</li>
-            <li>Asociación Civil Proyecto 4 Patas</li>
-            <li>Cuenta Corriente en pesos Nº 50634/8</li>
-            <li>Sucursal Nº: 05002 – San Antonio de Padua</li>
-            <li>CBU: 0140059501500205063480</li>
-            <li>CUIT: 30-71080554-3</li>
-            <li>Alias: PROYECTO-ADOPTAR</li>
-        </h4>
+        
     </section>
 </main>
 <footer>
     <ul class="containerFooter">
         <li class="ir-inicio">
-            <a href="#top">Ir al Inicio</a>
+            <a href="#top">Ir al Inicio</a>   
+        </li>
+        <li>
+            <a href="https://www.instagram.com/" target="_blank">
+                <img class="logoredes"
+                    src="/assets/fotos/logos/logoinstagram2.png"
+                    alt="Logo"
+                    width="70"
+                    height="70"
+                    class="d-inline-block align-text-top">
+            </a>
+        </li>
+        <li>
+            <a href="https://www.facebook.com/" target="_blank">
+                <img class="logoredes"
+                    src="/assets/fotos/logos/logofacebook2.jpg"
+                    alt="Logo"
+                    width="70"
+                    height="70"
+                    class="d-inline-block align-text-top">
+            </a>
+        </li>
+        <li>
+            <a  href="https://www.twitter.com/" target="_blank">
+                <img class="logoredes"
+                    src="/assets/fotos/logos/logotwitter2.png"
+                    alt="Logo"
+                    width="70"
+                    height="70"
+                    class="d-inline-block align-text-top">
+            </a>
         </li>
         <li>© 2022 Proyecto Adoptar, todos los derechos registrados.</li>
     </ul>

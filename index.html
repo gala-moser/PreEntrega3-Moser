@@ -31,14 +31,16 @@
         <header class="navBack mb-4">
             <nav class="navbar d-flex justify-content-around navbar-expand-lg">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="/index.html">
                         <img
                             src="./assets/img/logoround.png"
                             alt="Logo"
                             width="70"
                             height="70"
                             class="d-inline-block align-text-top">
-                        <p class="nombre d-inline-block p-2">PROYECTO ADOPTAR</p>
+                    </a>
+                    <a class="navbar-brand" href="/index.html">
+                            <p class="nombre d-inline-block p-2">PROYECTO ADOPTAR</p>
                     </a>
                     <button
                         class="navbar-toggler"
@@ -53,11 +55,25 @@
 
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav me-auto">
-                            <li class="nav-item">
+                            <li class="nav-item dropdown">
                                 <a class="nav-link active p-3" aria-current="page" href="index.html">INICIO</a>
                             </li>
-                            <li class="nav-item ">
-                                <a class="nav-link active p-3 " href="./view/adopciones.html">ADOPCIONES</a>
+                            <li class="nav-item dropdown">
+                                <a
+                                class="nav-link dropdown-toggle"
+                                href="#"
+                                id="navbarDropdown"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false">ADOPCIONES</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li>
+                                        <a class="dropdown-item" href="./view/adopciondegatos.html">Adopción de Gatos</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="./view/adopciondeperros.html">Adopción de Perros</a>
+                                    </li>
+                                </ul>
                             </li>
                             <li class="nav-item dropdown">
                                 <a
@@ -99,7 +115,7 @@
                         <p class="wow animate__animated animate__fadeInUp fs-2">Registrate y SALVÁ vidas</p>
                     </div>
                 </section>
-                <section class="col-lg-12 text-center p-3 mt-5 mb-5">
+                <section class="col-lg-12 text-center p-3 mt-5">
                         <p class="fs-3">
                             Somos la red de adopciones, tránsitos y rescates más grande de Argentina.
                         </p>
@@ -111,7 +127,7 @@
                             class="img-fluid rounded img1"
                             alt="foto abrazo">
                     </div>
-                    <div class="bg-success text-center rounded bg-opacity-25 h-100 d-flex flex-column justify-content-center m-4 p-3 fs-5">
+                    <div class="bg-success text-center rounded bg-opacity-25 h-100 d-flex flex-column justify-content-center m-5 p-3 fs-5">
                         <p>Registrate a nuestro Newsletter y conocé todas nuestras actividades.</p>
                         <form>
                             <div class="m-3">
@@ -151,10 +167,11 @@
                     <p data-aos="zoom-in-right">Sumate a nuestra Red de Adopciones</p>
             </section>
             <section>
-                <div class="col-12 text-center bg-transparent p-5">
-                    <h1>Encontrá a tu compañero de aventuras.</h1>
+                    <div class="col-12 text-center bg-transparent p-5">
+                    <p class="fs-1">Encontrá a tu compañero de aventuras.</p>
                 </div>
             </section>
+
             <section class="d-flex flex-column align-items-center flex-md-row justify-content-around">
                 <div class="text-center p-3">
                     <div class="card" style="width: 18rem;">
@@ -166,7 +183,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Adopción de Gatos</h5>
                             <a
-                                href="./view/adopciones.html"
+                                href="./view/adopciondegatos.html"
                                 class="btn btn-primary bg-opacity-50 text-center">Adoptar</a>
                         </div>
                     </div>
@@ -181,7 +198,7 @@
                         <div class="card-body">
                             <p class="card-title">Adopción de Perros</p>
                             <a
-                                href="./view/adopciones.html"
+                                href="./view/adopciondeperros.html"
                                 class="btn btn-primary bg-opacity-50 text-center">Adoptar</a>
                         </div>
                     </div>
@@ -209,11 +226,8 @@
                             class="col-lg-4 col-md-6 col-sm-12 bg-success bg-opacity-25 text-center d-flex align-items-center rounded py-3 mb-5 fs-4">
                             <div>
                                 <p class="p-2" data-aos="zoom-out-down">Inscribite como voluntario para participar de nuestra Red de ayuda.</p>
-                                <button
-                                    data-aos="zoom-out-up"
-                                    type="submit"
-                                    class="btn btn-success bg-opacity-50 text-light">
-                                    Suscribirme</button>
+                                <a class="btn btn-success bg-opacity-50 text-light" href="./view/voluntariado.html" data-aos="zoom-out-up" role="button">Suscribirme</a>
+                            
                             </div>
                         </div>
                         <div
@@ -238,7 +252,37 @@
 <footer>
 <ul class="containerFooter">
     <li class="ir-inicio">
-        <a href="#top">Ir al Inicio</a>
+        <a href="#top">Ir al Inicio</a>   
+    </li>
+    <li>
+        <a href="https://www.instagram.com/" target="_blank">
+            <img class="logoredes"
+                src="./assets/fotos/logos/logoinstagram2.png"
+                alt="Logo"
+                width="70"
+                height="70"
+                class="d-inline-block align-text-top">
+        </a>
+    </li>
+    <li>
+        <a href="https://www.facebook.com/" target="_blank">
+            <img class="logoredes"
+                src="./assets/fotos/logos/logofacebook2.jpg"
+                alt="Logo"
+                width="70"
+                height="70"
+                class="d-inline-block align-text-top">
+        </a>
+    </li>
+    <li>
+        <a  href="https://www.twitter.com/" target="_blank">
+            <img class="logoredes"
+                src="./assets/fotos/logos/logotwitter2.png"
+                alt="Logo"
+                width="70"
+                height="70"
+                class="d-inline-block align-text-top">
+        </a>
     </li>
     <li>© 2022 Proyecto Adoptar, todos los derechos registrados.</li>
 </ul>
