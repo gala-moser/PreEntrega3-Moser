@@ -1,6 +1,6 @@
 .DS_Store
-.Wireframe
-.node_modules
+Wireframe/
+node_modules/
 .package-lock.json
 .package.json
 
